@@ -1,0 +1,69 @@
+{
+  "Login": {
+    "emailField": {
+      "type": "xpath",
+      "value": "//form[@action='/login']/input[@type='email']"
+    },
+    "passwordField": {
+      "type": "xpath",
+      "value": "//form[@action='/login']/input[@type='password']"
+    },
+    "loginButton": {
+      "type": "xpath",
+      "value": "//form[@action='/login']/button[@type='submit']"
+    },
+    "loggedInText": {
+      "type": "xpath",
+      "value": "//a[contains(., 'Logged in as')]"
+    },
+    "loginError": {
+      "type": "xpath",
+      "value": "//*[contains(text(),'incorrect')]"
+    }
+  },
+  "SignUp":{
+    "nameField": {
+      "type": "xpath",
+      "value": "//input[@name='name']"
+    },
+    "emailField": {
+      "type": "xpath",
+      "value": "//form[@action='/signup']/input[@type='email']"
+    },
+    "signUpButton": {
+      "type": "xpath",
+      "value": "//form[@action='/signup']/button[@type='submit']"
+    },
+    "signUpText": {
+      "type": "xpath",
+      "value": "//h2[text()='New User Signup!']"
+    }
+
+  },
+  "Header": {
+    "logo": {
+      "type": "css",
+      "value": "img.logo"
+    },
+    "logoutLink": {
+      "type": "xpath",
+      "value": "//a[text()='Logout']"
+    },
+    "login": {
+      "type": "xpath",
+      "value": "//a[text()=' Signup / Login']"
+    },
+    "cart": {
+      "type": "xpath",
+      "value": "//a[text()=' Cart']"
+    },
+    "products": {
+      "type": "xpath",
+      "value": "//a[text()='  Products"
+    },
+    "apiTesting": {
+      "type": "xpath",
+      "value": "//a[text()=' API Testing']"
+    }
+  }
+}

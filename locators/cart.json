@@ -1,0 +1,16 @@
+{
+    "Cart": {
+        "productName": {
+            "type": "xpath",
+            "value": "//td[@class='cart_description']/h4/a"
+        },
+        "productQuantity": {
+            "type": "xpath",
+            "value": "//td[@class='cart_description']/following-sibling::td/button"
+        },
+        "proceedToCheckoutButton": {
+            "type": "xpath",
+            "value": "//a[contains(text(),'Proceed To Checkout')]"
+        }
+    }
+}

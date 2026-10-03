@@ -1,0 +1,12 @@
+{
+    "checkoutPage":{
+        "headerAddressDetails":{
+            "type":"xpath",
+            "value":"//h2[contains(text(),'Address Details')]"
+        },
+        "placeOrderButton":{
+            "type":"xpath",
+            "value":"//a[contains(text(),'Place Order')]"
+        }
+    }
+}

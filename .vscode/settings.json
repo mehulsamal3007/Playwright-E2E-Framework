@@ -1,0 +1,14 @@
+{
+  "cucumber.glue": [
+    "steps/**/*.ts"
+  ],
+  "cucumberautocomplete.steps": [
+    "steps/**/*.ts"
+  ],
+  "chat.tools.terminal.autoApprove": {
+    "/^npx tsc --noEmit$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}

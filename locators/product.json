@@ -1,0 +1,28 @@
+{
+    "Products": {
+        "productName": {
+            "type": "xpath",
+            "value": "//h2[contains(text(),<arg0>)]"
+        },
+        "addToCartButton": {
+            "type": "xpath",
+            "value": "//button[contains(normalize-space(.),'Add to cart')]"
+        },
+        "quantityInput": {
+            "type": "xpath",
+            "value": "//input[@id='quantity']"
+        },
+        "viewProductButton": {
+            "type": "xpath",
+            "value": "(//*[contains(.,<arg0>)][1]/ancestor::div//div[@class='choose'])[3]//a[contains(.,'View Product')]"
+        },
+        "addedToCartConfirmation":{
+            "type":"xpath",
+            "value":"//h4[contains(text(),'Added!')]"
+        },
+        "continueShoppingButton": {
+        "type": "xpath",
+        "value": "//button[contains(text(),'Continue Shopping')]"
+        }
+    }
+}
